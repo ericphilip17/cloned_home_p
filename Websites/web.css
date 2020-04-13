@@ -32,7 +32,6 @@ html, body {
   margin-top: 10px;
   padding: 10px;
   flex-wrap: wrap;
-
 }
 .recent {
   display: flex;
@@ -43,8 +42,9 @@ html, body {
   margin: 10px;
 }
 #offerH5 > h5 {
-  margin-bottom: 5px;
+  margin-top: 5px;
   color: #330033;
+  text-align: center;
 }
 #offerUL > ul > li {
   line-height: 1.6em;
