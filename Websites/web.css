@@ -34,15 +34,12 @@ html, body {
   flex-wrap: wrap;
 }
 .recent {
-  display: flex;
-  justify-content: center;
-  text-align: center;
   border-bottom: 1px solid #330033;
 }
 #offerH5 > h5 {
   margin-top: 5px;
   color: #330033;
-  text-align: center;
+  text-align: left;
 }
 #offerUL > ul > li {
   line-height: 1.6em;
