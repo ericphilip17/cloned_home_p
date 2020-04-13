@@ -1,6 +1,71 @@
-/* html {
-  height: 200%;
-} */
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  background-color: lightgrey;
+}
+.doc {
+  display: flex;
+  flex-direction: column;
+}
+.upSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: repeating-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/code_bg.jpg) center no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+.backHome {
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-top: 30px;
+  color: yellow;
+  cursor: pointer;
+}
+.whyHireUs {
+  display: flex;
+  flex-direction: column;
+/*   justify-content: center;
+  align-items: center; */
+  margin-top: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.recent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #330033;
+  margin-top: 10px;
+  margin: 10px;
+}
+#offerH5 > h5 {
+  margin-top: 5px;
+  color: #330033;
+  text-align: center;
+}
+#offerUL > ul > li {
+  line-height: 1.6em;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px 20px;
+  margin: 5px;
+  border-right: 10px solid #142c13;
+  border-left: 10px solid #142c13;
+}
+#offerUL > ul > li:hover {
+  background-color: #142c13;
+  border-right: 10px solid white;
+  border-left: 10px solid white;
+  color: white;
+}
+#offerUL > ul > h5 {
+  text-align: center;
+  margin: 5px;
+  color: #330033;
+}
 .h4s {
   display: flex;
   justify-content: space-between;
