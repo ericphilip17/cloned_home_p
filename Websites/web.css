@@ -100,7 +100,7 @@ html, body {
   /* border-bottom: 1px solid skyblue; */
   /* background: linear-gradient(rgba(0, 100, 150, 0.1), rgba(0, 100, 150, 0.3)); */
   /* background-color: lavender; */
-  background: repeating-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/bg-blog.jpg) center no-repeat;
+  background: repeating-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/bg-blog.JPG) center no-repeat;
   background-size: cover;
 
 }
