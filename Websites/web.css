@@ -39,7 +39,8 @@ html, body {
 #offerH5 > h5 {
   margin-top: 5px;
   color: #330033;
-  text-align: left;
+  text-align: center;
+  font-size: larger;
 }
 #offerUL > ul > li {
   line-height: 1.6em;
@@ -56,6 +57,8 @@ html, body {
   border-left: 10px solid white;
   color: white;
 }
+#offerUL {
+  margin: 0px 20px;
 #offerUL > ul > h5 {
   text-align: center;
   margin: 5px;
