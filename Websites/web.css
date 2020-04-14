@@ -32,7 +32,6 @@ html, body {
   margin-top: 10px;
   padding: 10px;
   flex-wrap: wrap;
-  background-color: red;
 }
 .recent {
   border-bottom: 1px solid #330033;
